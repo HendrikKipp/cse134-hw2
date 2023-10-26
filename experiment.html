@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment - Hendrik Kipp</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+
+    </style>
+    <script>
+        window.onload = function() {
+            const canvas = document.getElementById('drawing');
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = 'lightblue';
+            ctx.fillRect(0,0,100,100);
+        };
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="">Experiment</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <header>
+        <h1>Some random facts</h1>
+        <pre>On this site you will
+find some random
+facts</pre>
+    </header>
+    <main>
+        <section>
+            <h2>I'm studying at the Technical University in Munich</h2>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/riNBKby0hrM?si=HS2zrJ9U60bf9Oxa"
+                    title="YouTube video player"></iframe>
+        </section>
+        <section>
+            <h2>In my home town Munich you can surf in a city river</h2>
+            <div>
+                <video width="560" controls>
+                    <source src="video/surfing_munich.mp4" type="video/mp4">
+                    Unfortunately your browser doesn't support this video.
+                </video>
+                <figure>
+                    <img src="img/surfing.png" alt="surfing in munich">
+                    <figcaption>Figure 1 - Surfing in Munich</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2>Write this code to your browsers console to get an fake error message</h2>
+            <code>
+                alert("fatal error on this page");
+            </code>
+        </section>
+        <section>
+            <h2>Some music</h2>
+            <audio controls>
+                <source src="music/music.mp3" type="audio/mp3">
+                Unfortunately your browser doesn't support this audio.
+            </audio>
+        </section>
+        <section>
+            <h2>Top 3 things to do in Munich</h2>
+            <ol>
+                <li>Visit the Oktoberfest</li>
+                <li>See the English Garden</li>
+                <li>Make a trip to one of the many Bavarian seas</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Some drawings in lightblue</h2>
+            <canvas id="drawing">
+                Unfortunately your browser doesn't support this canvas.
+            </canvas>
+        </section>
+    </main>
+    <footer>
+        <a href="">Back to Top of Page</a>
+        <a href="/contact.html">Contact Me</a>
+    </footer>
+</body>
+</html>
